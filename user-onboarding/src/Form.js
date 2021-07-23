@@ -17,7 +17,7 @@ export default function Form (props) {
     return (
         <form onSubmit={submitEvt}>
             <h2>Add User</h2>
-            <button disabled = {disabled}>Submit</button>
+            <button id = 'submit' disabled = {disabled}>Submit</button>
             <div>
                 <div>{errors.name}</div>
                 <div>{errors.email}</div>
